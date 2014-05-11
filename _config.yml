@@ -5,6 +5,9 @@ description: "Write an awesome description for your new site here. You can edit 
 baseurl: ""
 url: "http://nomad-labs.com"
 exclude:     [README.md, Gemfile, Gemfile.lock, CNAME]
+sass:
+  sass_dir: _sass
+  style: :compressed
 
 # Build settings
 markdown: kramdown
